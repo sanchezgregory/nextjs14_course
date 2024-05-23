@@ -19,11 +19,3 @@ export default async function Home({comics}) {
    </div>
   );
 }
-
-
-Home.getInitialProps = async() => {
-  
-  console.log("asdasdasd");
-    
-    return { comics:json }
-}
